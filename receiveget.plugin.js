@@ -13,7 +13,6 @@
                 if (sParameterName[0] == getvar)
                 {
                     returnValue = decodeURIComponent(sParameterName[1].replace('+', ' '));
-                    /* $(this).text(returnValue); */
                 }
             }
             return returnValue;
